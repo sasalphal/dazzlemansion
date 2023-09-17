@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+.nav-sub-lists {
+  display: flex;
+  gap: 3rem;
+}
+.nav-sub-links a {
+  font-family: "Bebas Neue", sans-serif;
+  color: var(--color-light);
+}
+.nav-sub-links > a:hover {
+  color: #72abc2;
+}
+td > img {
+  width: 500px;
+}
+.item-detail {
+  padding-left: 2rem;
+}
+.item-detail > p {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  line-height: 1.5em;
+  font-weight: 400;
+  color: #3e3c38;
+}
+.item-detail .p-3 {
+  margin-top: 2rem;
+  font-weight: bold;
+}
+td > h3 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+ul {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  padding-top: 2rem;
+  padding-left: 3rem;
+}
+li {
+  list-style-type: disc;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0;
+  font-size: 1.5rem;
+}
+.discount {
+  color: red;
+  font-size: 1.5rem;
+  text-decoration: line-through;
+}
+.p-2 span {
+  font-size: 1.5rem;
+}
+.btn-box {
+  margin: 3rem 3rem;
+}
+.btn {
+  padding: 1.4rem 2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline;
+  text-align: center;
+}
+.btn-two {
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+.btn-three {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(54, 53, 53);
+}
+span {
+  padding: 0.5rem;
+  font-size: 20px;
+}
+span:hover {
+  color: #72abc2;
+}
+.btn-block {
+  width: 100%;
+}
+.footer li {
+  list-style-type: none;
+}
+@media screen and (max-width: 768px) {
+  table {
+    display: inline;
+    padding: 1.5rem;
+  }
+  table caption {
+    display: inline-block;
+  }
+  table tr {
+    display: list-item;
+  }
+  table td {
+    display: inline;
+  }
+  table td img {
+    width: 400px;
+  }
+  table th {
+    display: inline-block;
+    margin-left: 3rem;
+    padding: 1.5rem;
+  }
+}
