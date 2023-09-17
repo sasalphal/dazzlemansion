@@ -132,7 +132,7 @@ marquee > img {
   display: none;
   cursor: pointer;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .navigation {
     flex-wrap: wrap;
   }
@@ -266,7 +266,7 @@ marquee > img {
   border: none;
   margin: 2rem;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .banner {
     background-size: cover;
     font-size: 0.5rem;
@@ -293,7 +293,7 @@ marquee > img {
   gap: 1rem;
   margin-top: 1rem;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .ab-container {
     grid-template-columns: 1fr;
     gap: 1rem;
